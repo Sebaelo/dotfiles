@@ -1,0 +1,16 @@
+[colors.primary]
+background = "#1e2030"
+
+[font]
+size = 14
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+
+[cursor.style]
+shape = "Block"
+blinking = "Never"
+
+[colors.cursor]
+cursor = "#c8ccd4"
+text = "#1e2030"

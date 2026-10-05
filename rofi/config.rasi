@@ -1,0 +1,10 @@
+configuration {
+  font: "FiraCode Nerd Font 13";
+  icon-theme: "Tela-circle";
+  modi: "drun,run";
+  show-icons: true;
+  display-drun: "";
+  drun-display-format: "{name}";
+}
+
+@theme "~/.config/rofi/theme.rasi"

@@ -1,0 +1,43 @@
+* {
+  background-color: transparent;
+  color: #cad3f5;
+  spacing: 0px;
+}
+
+window {
+width: 700px;
+location: center;
+border: 2px;
+border-color: #8aadf4;
+background-color: #24273a;
+}
+
+inputbar {
+  padding: 10px;
+}
+
+entry {
+  padding: 10px;
+}
+
+listview {
+  lines: 8;
+  columns: 1;
+}
+
+element {
+  padding: 5px;
+}
+
+element-icon {
+  padding: 0px 10px;
+  size: 1.2em;
+}
+
+element-text {
+  vertical-align: 0.5;
+}
+
+element selected {
+  background-color: #494d64;
+}
