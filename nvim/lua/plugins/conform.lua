@@ -9,6 +9,9 @@ return {
 			typescriptreact = { "prettierd", "prettier" },
 			json = { "prettierd", "prettier" },
 			jsonc = { "prettierd", "prettier" },
+			-- Temporary for school
+			html = { "prettierd", "prettier" },
+			css = { "prettierd", "prettier" },
 		},
 		format_on_save = {
 			timeout_ms = 500,
