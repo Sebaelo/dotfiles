@@ -4,6 +4,7 @@ vim.keymap.set("v", "p", '"_dP')
 vim.keymap.set("n", "c", '"_c')
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
+vim.keymap.set("n", "G", "Gzz")
 
 -- Clear search
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<cr>")
