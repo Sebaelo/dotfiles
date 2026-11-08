@@ -32,8 +32,6 @@ return {
 
 				vim.keymap.set("n", "gd", vim.lsp.buf.definition, { desc = "Go to definition", buffer = event.buf })
 
-				vim.keymap.set("n", "gr", vim.lsp.buf.references, { desc = "Go to references", buffer = event.buf })
-
 				vim.keymap.set("n", "<leader>cr", vim.lsp.buf.rename, { desc = "Rename", buffer = event.buf })
 
 				vim.keymap.set("n", "<leader>ca", function()

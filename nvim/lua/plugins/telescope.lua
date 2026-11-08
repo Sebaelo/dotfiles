@@ -66,6 +66,7 @@ return {
 		vim.keymap.set("n", "<leader>sk", builtin.keymaps, { desc = "Search keybinds" })
 		vim.keymap.set("n", "<leader>sw", builtin.grep_string, { desc = "Search word under cursor" })
 		vim.keymap.set("n", "<leader>sh", builtin.help_tags, { desc = "Search help tags" })
+		vim.keymap.set("n", "gr", builtin.lsp_references, { desc = "Get references" })
 		vim.keymap.set("n", "<leader>sd", function()
 			builtin.diagnostics({
 				attach_mappings = function(_, map)
